@@ -12,6 +12,8 @@
 		45201B3C1CE2E152004F3A22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45201B3A1CE2E152004F3A22 /* Main.storyboard */; };
 		45201B3E1CE2E152004F3A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45201B3D1CE2E152004F3A22 /* Assets.xcassets */; };
 		45201B411CE2E152004F3A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45201B3F1CE2E152004F3A22 /* LaunchScreen.storyboard */; };
+		45201B491CE30CF0004F3A22 /* DemoDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201B481CE30CF0004F3A22 /* DemoDisplayViewController.swift */; };
+		45201B4B1CE30D65004F3A22 /* InjectableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45201B4A1CE30D65004F3A22 /* InjectableProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		45201B3D1CE2E152004F3A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45201B401CE2E152004F3A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45201B421CE2E152004F3A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45201B481CE30CF0004F3A22 /* DemoDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDisplayViewController.swift; sourceTree = "<group>"; };
+		45201B4A1CE30D65004F3A22 /* InjectableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectableProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				45201B361CE2E152004F3A22 /* AppDelegate.swift */,
+				45201B4A1CE30D65004F3A22 /* InjectableProtocol.swift */,
 				45201B381CE2E152004F3A22 /* ViewController.swift */,
+				45201B481CE30CF0004F3A22 /* DemoDisplayViewController.swift */,
 				45201B3A1CE2E152004F3A22 /* Main.storyboard */,
 				45201B3D1CE2E152004F3A22 /* Assets.xcassets */,
 				45201B3F1CE2E152004F3A22 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45201B491CE30CF0004F3A22 /* DemoDisplayViewController.swift in Sources */,
 				45201B391CE2E152004F3A22 /* ViewController.swift in Sources */,
+				45201B4B1CE30D65004F3A22 /* InjectableProtocol.swift in Sources */,
 				45201B371CE2E152004F3A22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
